@@ -1,0 +1,44 @@
+body{ 
+	background-color: #000000;
+}
+
+table{
+	margin: auto;
+	table-layout: fixed;
+	text-align: center;
+	color: black;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+table td{
+	width: 150px;
+	height: 150px;
+	border: 2px solid orange;
+}
+.first .colorname{
+	background-color: lightblue;
+}
+.first .hex{
+	background-color: #00ff00;
+}
+.first .hsla{
+	background-color: hsla(100,80%,30%,0.9);
+}
+.second .hsla{
+	background-color: hsla(80,90%,20%,1.1);
+}
+.third .rgba{
+	background-color: rgba(20,125,170,3);
+}
+.third .rgb{
+	background-color: rgb(220,150,100);
+}
+.fourth .colorname{
+	background-color: violet;
+}
+.fourth .hsl{
+	background-color: hsl(10, 50%, 60%);
+}
+.fourth .hsla{
+	background-color: hsla(150, 50%, 10%, 0.2);
+}
