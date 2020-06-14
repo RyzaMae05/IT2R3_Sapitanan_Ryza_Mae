@@ -1,0 +1,80 @@
+body{
+    background-attachment: fixed;
+	background-size: 100%;
+	font-family: Baskerville Old Face;
+	margin: 0 auto;
+}
+.mar{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    width: 85%;
+    font-size: 20px;
+}
+marquee{
+    margin-top: 70px;
+    direction: left;
+    scroll-behavior: smooth;
+    color: black;
+
+}
+section.abouts{
+    background-image: url('C:\\Users\\ednear\\Desktop\\IT2R3_Sapitanan_Ryza_Mae\\images\\bgabout.jpg');
+    background-size: 100%;
+    width: 84%;
+    height: 600px;  
+    margin-right: auto;
+    margin-left: auto;
+    background-color:white;
+    background-repeat: none;
+}
+
+.banner img{
+    width: 30%;
+    height: 100%;
+    margin-left: 400px;
+    
+}
+.team{
+    width: 100%;
+    margin-left: 150px;
+}
+.team img{
+    float: left;
+    border-radius: 100px;
+    width: 16%;
+    margin: 10px;
+}
+.team h4{
+    margin-top: 0;
+    margin-left: 360px;
+}
+.name{
+    width: 100%;
+    height: 100%;
+}
+.name p{
+    background-color: chocolate;
+    background-size: 80%;
+    padding: 10px;
+    color: black;
+    display: inline-block;
+}
+.name p:hover{
+    text-decoration: underline;
+}
+.name p.ry{
+    margin-left: 170px;
+}
+.name p.ann{
+    margin-left: 48px;
+}
+.name p.are{
+    margin-left: 46px;
+}
+.name p.shan{
+    margin-left: 46px;
+}
+footer{
+    padding-top: 50px;
+}
